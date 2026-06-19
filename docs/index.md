@@ -1,27 +1,80 @@
-
-
-  <iframe width="566" height="315" src="https://www.youtube.com/embed/6cpAntVdFag"
-title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-
-  <img src="my_car.PNG" alt="car" width="960" height="540">
-
-  # 自己紹介
-
-## 基本情報
-情報システム/CS系の大学生（2028年卒予定）。就活では PdM・事業企画・AI基盤系の職種を中心に、AIネイティブ企業や外資系日系企業、事業会社のインハウス職を志望中。
-
-## 専門・取り組み
-個人開発で PLAMA という AI関連プロジェクトを継続中（Next.js + FastAPI + LangGraph構成）。設計思想は「性悪説ベース設計」で、善意に依存せず機能するシステムを作ることを軸にしてる。Why/Whatの設計力は強いけど、How層（インターフェース仕様）を省略しがちなのが自覚してる弱点。
-
-## 趣味
-- **ロードバイク**: GIANT ESCAPE R3とFuji SL-A 1.3を1xドライブトレインに改造、ホイール組みも自分でやる
-- **GT7**: 三菱GTOでニュルブルクリンク北コース専走、PB 6:52.786
-- **IEM収集**: 28機種16ブランド所有、弱ドンシャリ傾向
-- **SF小説**: カクヨムで執筆中
-- **LEGO Technic**: MOC設計
-
-## スタンス
-情報収集は得意分野（LLM、自転車、就活）では一次情報まで深く調べる一方、未知の分野では探索が浅め。長期的には「AIが実行を自動化する時代に、問題定義・評価基準設計の側に立つ」ことを目指してる。
-
 ---
+# h1 Heading
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
+## Emphasis
+**This is bold text**
+__This is bold text__
+*This is italic text*
+_This is italic text_
+~~Strikethrough~~
+## Blockquotes
+38
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+## Lists
+Unordered
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+ - Marker character change forces new list start:
+ * Ac tristique libero volutpat at
+ + Facilisis in pretium nisl aliquet
+ - Nulla volutpat aliquam velit
++ Very easy!
+Ordered
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
+Start numbering with offset:
+57. foo
+1. bar
+## Code
+Inline `code`
+Indented code
+39
+ // Some comments
+ line 1 of code
+ line 2 of code
+ line 3 of code
+Block code "fences"
+```
+Sample text here...
+```
+Syntax highlighting
+``` js
+var foo = function (bar) {
+ return bar++;
+};
+console.log(foo(5));
+```
+## Tables
+| Option | Description |
+| ------ | ----------- |
+| data | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext | extension to be used for dest files. |
+Right aligned columns
+| Option | Description |
+| ------:| -----------:|
+| data | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext | extension to be used for dest files. |
+40
+## Links
+[link text](http://dev.nodeca.com)
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+Footnote 1 link[^first].
+Footnote 2 link[^second].
+Inline footnote^[Text of inline footnote] definition.
+Duplicated footnote reference[^second].
+[^first]: Footnote **can have markup**
+ and multiple paragraphs.
+[^second]: Footnote text.
