@@ -1,9 +1,10 @@
 
 
-<iframe width="566" height="315" src="https://www.youtube.com/embed/6cpAntVdFag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
+<!-- YouTube: 改行を整え、インラインスタイルで枠線を消去 -->
+<iframe width="566" height="315" src="https://www.youtube.com/embed/6cpAntVdFag" title="YouTube video player" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<img src="my_car.PNG" alt="car" width="960" height="540">
+<!-- 画像: スマホ対応（レスポンシブ）になるようスタイルを追加 -->
+<img src="my_car.PNG" alt="car" width="960" height="540" style="max-width: 100%; height: auto;">
 
 # 自己紹介
 
